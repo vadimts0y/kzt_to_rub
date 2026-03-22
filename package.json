@@ -1,0 +1,18 @@
+{
+  "name": "kzt-to-rub-extension",
+  "version": "1.0.0",
+  "description": "Browser extension for converting KZT to RUB",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build",
+    "watch": "vite build --watch"
+  },
+  "devDependencies": {
+    "vite": "^5.4.21",
+    "vite-plugin-static-copy": "^3.4.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

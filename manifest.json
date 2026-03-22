@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "KZT to RUB Converter",
+  "version": "1.0.0",
+
+  "permissions": [
+    "storage"
+  ],
+
+  "host_permissions": [
+    "https://api.exchangerate.host/*"
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
