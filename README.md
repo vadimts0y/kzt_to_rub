@@ -53,13 +53,13 @@ npm install vite --save-dev
 npm install vite-plugin-static-copy@3 -D
 ```
 
-### 2. 🛠️ Сборка
+### 3. 🛠️ Сборка
 
 ```bash
 npm run build
 ```
 
-### 3. 🧩 Установка расширения в браузер
+### 4. 🧩 Установка расширения в браузер
 
 Google Chrome / Microsoft Edge / Brave / Opera / Yandex
 
