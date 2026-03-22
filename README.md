@@ -19,7 +19,7 @@
 
 ### 1. Установка Node.js
 
-Если у вас ещё нет Node.js → скачайте и установите актуальную LTS-версию:
+Если у вас ещё нет Node.js → скачайте и установите актуальную версию:
 
 → https://nodejs.org/
 
@@ -30,6 +30,24 @@ node --v
 npm --v
 ```
 
-git clone https://github.com/ВАШ-ЮЗЕРНЕЙМ/kzt-to-rub-converter.git
-cd kzt-to-rub-converter
+### 2. Клонирование и установка зависимостей
 
+```git clone https://github.com/vadimts0y/kzt_to_rub.git```
+```cd kzt_to_rub```
+```npm init -y```
+```npm install vite --save-dev```
+```npm install vite-plugin-static-copy@3 -D```
+
+### 2. Сборка
+```npm run build```
+
+### 🧩 Установка расширения в браузер
+
+Google Chrome / Microsoft Edge / Brave / Opera
+
+1. Откройте браузер
+2. Перейдите по адресу: chrome://extensions/
+3. Включите «Режим разработчика»
+4. Нажмите кнопку «Загрузить распакованное расширение»
+5. Укажите папку dist
+6. Готово! Расширение появится в списке и начнёт работать
