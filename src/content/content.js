@@ -1,7 +1,7 @@
 //content.js
 
 
-import '../styles/content.css';
+
 import { processTextNodes, replaceText } from './dom.js';
 import { extractPrice, convertKztToRub, buildDisplay } from './converter.js';
 import { KZT_REGEX } from '../shared/constants.js';
