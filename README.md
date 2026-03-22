@@ -1,4 +1,5 @@
 # 💱 KZT → RUB Converter  
+
 Браузерное расширение для автоматической конвертации цен из тенге в рубли по курсу ЦБ РФ для сайта 🎮 [Steam](https://store.steampowered.com/)
 
 ## ✨ Возможности
@@ -32,14 +33,31 @@ npm --v
 
 ### 2. Клонирование и установка зависимостей
 
-```git clone https://github.com/vadimts0y/kzt_to_rub.git```
-```cd kzt_to_rub```
-```npm init -y```
-```npm install vite --save-dev```
-```npm install vite-plugin-static-copy@3 -D```
+```bash
+git clone https://github.com/vadimts0y/kzt_to_rub.git
+```
+
+```bash 
+cd kzt_to_rub
+```
+
+```bash
+npm init -y
+```
+
+```bash
+npm install vite --save-dev
+```
+
+```bash
+npm install vite-plugin-static-copy@3 -D
+```
 
 ### 2. Сборка
-```npm run build```
+
+```bash
+npm run build
+```
 
 ### 🧩 Установка расширения в браузер
 
