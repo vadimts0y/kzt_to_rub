@@ -64,24 +64,11 @@ npm run build
 Google Chrome / Microsoft Edge / Brave / Opera / Yandex
 
 1. Откройте браузер
-2. Перейдите по адресу:  
-Chrome:
+2. Перейдите по адресу:
 
-```bash
-chrome://extensions/
-```
-
-Yandex:
-
-```bash
-browser://extensions/
-```
-
-Edge:
-
-```bash
-edge://extensions/
-```
+   - Chrome: `chrome://extensions/`
+   - Yandex: `browser://extensions/`
+   - Edge: `edge://extensions/`
 
 3. Включите «Режим разработчика»
 4. Нажмите кнопку «Загрузить распакованное расширение»
