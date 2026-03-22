@@ -64,8 +64,8 @@ npm run build
 Google Chrome / Microsoft Edge / Brave / Opera / Yandex
 
 1. Откройте браузер
-2. Перейдите по адресу:
-Chrome: 
+2. Перейдите по адресу:  
+Chrome:
 
 ```bash
 chrome://extensions/
