@@ -61,7 +61,7 @@ npm run build
 
 ### 3. 🧩 Установка расширения в браузер
 
-Google Chrome / Microsoft Edge / Brave / Opera
+Google Chrome / Microsoft Edge / Brave / Opera / Yandex
 
 1. Откройте браузер
 2. Перейдите по адресу: chrome://extensions/
