@@ -31,7 +31,7 @@ node --v
 npm --v
 ```
 
-### 2. Клонирование и установка зависимостей
+### 2. 📦 Клонирование и установка зависимостей
 
 ```bash
 git clone https://github.com/vadimts0y/kzt_to_rub.git
@@ -53,13 +53,13 @@ npm install vite --save-dev
 npm install vite-plugin-static-copy@3 -D
 ```
 
-### 2. Сборка
+### 2. 🛠️ Сборка
 
 ```bash
 npm run build
 ```
 
-### 🧩 Установка расширения в браузер
+### 3. 🧩 Установка расширения в браузер
 
 Google Chrome / Microsoft Edge / Brave / Opera
 
