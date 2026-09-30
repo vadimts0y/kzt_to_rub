@@ -5,6 +5,7 @@ export default defineConfig({
     build: {
         outDir: 'dist',
         emptyOutDir: true,
+        minify: false, // <-- ДОБАВЬТЕ ЭТУ СТРОКУ, чтобы код оставался читаемым для Mozilla
         rollupOptions: {
             input: {
                 content: 'src/content/content.js',
@@ -19,7 +20,7 @@ export default defineConfig({
     plugins: [
         viteStaticCopy({
             targets: [
-                { src: 'manifest.json', dest: '.' } // <-- Путь от корня проекта
+                { src: 'manifest.json', dest: '.' }
             ]
         })
     ]
