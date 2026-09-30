@@ -19,9 +19,7 @@ export default defineConfig({
     plugins: [
         viteStaticCopy({
             targets: [
-                { src: 'src/manifest.json', dest: '.' },
-                { src: 'LICENSE', dest: '.' },
-                { src: 'README.md', dest: '.', required: false }
+                { src: 'manifest.json', dest: '.' } // <-- Путь от корня проекта
             ]
         })
     ]
