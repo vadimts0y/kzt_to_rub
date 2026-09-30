@@ -2,15 +2,10 @@
   "manifest_version": 3,
   "name": "KZT to RUB Converter",
   "version": "1.0.0",
-  "description": "Конвертер валют KZT в RUB",
+  "description": "Автоматическая конвертация цен из тенге (₸) в рубли (₽)",
 
-  "permissions": [
-    "storage"
-  ],
-
-  "host_permissions": [
-    "https://www.cbr-xml-daily.ru/*"
-  ],
+  "permissions": ["storage"],
+  "host_permissions": ["https://www.cbr-xml-daily.ru/*"],
 
   "background": {
     "scripts": ["background.js"],
@@ -28,7 +23,14 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "kzt-to-rub-converter@example.com",
-      "strict_min_version": "109.0"
+      "strict_min_version": "115.0",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
     }
-  }
+  },
+
+  "privacy_policy_url": "https://github.com/your-username/kzt_to_rub/blob/main/PRIVACY.md"
 }
